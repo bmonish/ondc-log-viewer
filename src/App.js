@@ -157,7 +157,7 @@ function App() {
               <Col md="1">
                 <CopyToClipboard
                   text={JSON.stringify(
-                    JSON.parse(get(displayData, "payload", "")),
+                    JSON.parse(get(displayData, "payload", "{}")),
                     null,
                     3
                   )}
